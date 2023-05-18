@@ -190,4 +190,33 @@ body section .cards .card2 .card-heading a {
   line-height: 18px;
   color: #D9852C;
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  body .textbox h1 {
+    font-family: "Libre Caslon Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+  }
+  body .textbox p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .navigation {
+    display: none;
+  }
+  .heading {
+    justify-content: center;
+    display: flex;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=styles.css.map */
