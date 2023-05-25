@@ -28,6 +28,14 @@ body header nav ul {
   gap: 35px;
   align-items: center;
 }
+body header nav ul .Submit {
+  border: 2px solid white;
+  display: unset;
+  position: absolute;
+  padding: 10px;
+  background-color: #B7B7B7;
+  opacity: 0.5;
+}
 body header nav ul a {
   color: #ffffff;
   font-family: "Inter";

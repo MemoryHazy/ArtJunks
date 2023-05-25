@@ -28,6 +28,16 @@ body {
                 flex-direction: row;
                 gap: 35px;
                 align-items: center;
+
+
+                .Submit {
+                    border: 2px solid white;
+                    display: unset;
+                    position: absolute;
+                    padding: 10px;
+                    background-color:#B7B7B7;
+                    opacity: 0.5;
+                }
                 
                 a {
                     color: #ffffff;   
